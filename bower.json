@@ -1,0 +1,20 @@
+{
+  "name": "learnnode",
+  "description": "Project for learning how to use node and express",
+  "main": "app.js",
+  "authors": [
+    "Alex Hyde"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/alexhyde/learnNode",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
