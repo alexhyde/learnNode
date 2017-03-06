@@ -1,0 +1,40 @@
+Install node into a folder. During the windows installation, have node installed to the main path of the computer. 
+Open a command prompt and type in node --version. If all installed correctly, the version should appear. 
+
+Type node into the command line to run in node mode. 
+
+console.log('Hello World'); -> Logs a message to the console
+
+The command line with node can parse and run javascript commands
+
+To run a file in node, navigate to that file in the command window and then type node and the name of the file you want to run.
+
+npm - node package manager
+
+npm - ^2.25.1 caret tells npm to allow updates for any major or minor versions but not express versions
+
+npm - ~2.25.1 tilda tells npm to allow updates for any minor versions.
+
+npm - 2.25.1 tells npm no upgrades
+
+npm init - starts a new package manager instance for a project
+
+npm update - look for any updates to dependencies in the project
+
+npm - to add a dependency, add the dependecny section to the package.json id it does not exist and then add your dependency and the version using the rules above. 
+
+npm - scripts : can add scripts(commands?) here for npm to run by name. To run a script, in the comand line type npm and the name of the script. 
+
+npm - npm install ****** -g. Tells nom to install a resource. The g flag tells bower to install it globally
+
+bootstrap - download a bootstrap template = https://startbootstrap.com/template-overviews/agency/
+
+bower - project manager for front end components. Similar to npm, nom does backend, bower does front end. 
+
+bower - bower command shows all bower commands
+
+bower - bower init - tells bower to init in a progect directory. 
+
+bower install bootstrap --save - tells bower to install bootstrap. The save flag tells bower to add the install to the dependecy section in the json
+
+bower upgrade - upgrades bower components
