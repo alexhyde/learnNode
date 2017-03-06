@@ -1,0 +1,23 @@
+{
+  "name": "learnnode",
+  "version": "1.0.0",
+  "description": "Project for learning how to use node and express",
+  "main": "app.js",
+  "dependencies":{
+	  "express": "^4.15.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexhyde/learnNode.git"
+  },
+  "author": "Alex Hyde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexhyde/learnNode/issues"
+  },
+  "homepage": "https://github.com/alexhyde/learnNode#readme"
+}
